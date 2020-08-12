@@ -52,5 +52,4 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
     //aqui vou executar todos os db.runs() das class_schedules
     await Promise.all(insertedAllClassScheduleValues)
 
-    //consultar dados inseridos
 }
